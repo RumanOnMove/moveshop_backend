@@ -1,3 +1,9 @@
+PATH
+  remote: /home/rsruman/WorkDir/Rails/moveshop_common
+  specs:
+    moveshop_common (0.1.0)
+      rails (>= 7.0.4.3)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -369,6 +375,7 @@ DEPENDENCIES
   debug
   importmap-rails
   jbuilder
+  moveshop_common!
   puma (~> 5.0)
   rails (~> 7.0.4, >= 7.0.4.3)
   selenium-webdriver

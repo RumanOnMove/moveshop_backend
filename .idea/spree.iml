@@ -28,6 +28,38 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="moveshop_common (v0.1.0) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../moveshop_common/app" />
+          <root url="file://$MODULE_DIR$/../moveshop_common/bin" />
+          <root url="file://$MODULE_DIR$/../moveshop_common/lib" />
+          <root url="file://$MODULE_DIR$/../moveshop_common/.git" />
+          <root url="file://$MODULE_DIR$/../moveshop_common/test" />
+          <root url="file://$MODULE_DIR$/../moveshop_common/.idea" />
+          <root url="file://$MODULE_DIR$/../moveshop_common/config" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../moveshop_common/app" />
+          <root url="file://$MODULE_DIR$/../moveshop_common/bin" />
+          <root url="file://$MODULE_DIR$/../moveshop_common/lib" />
+          <root url="file://$MODULE_DIR$/../moveshop_common/.git" />
+          <root url="file://$MODULE_DIR$/../moveshop_common/test" />
+          <root url="file://$MODULE_DIR$/../moveshop_common/.idea" />
+          <root url="file://$MODULE_DIR$/../moveshop_common/config" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/../moveshop_common/bin" />
+          <root url="file://$MODULE_DIR$/../moveshop_common/.git" />
+          <root url="file://$MODULE_DIR$/../moveshop_common/test" />
+          <root url="file://$MODULE_DIR$/../moveshop_common/.idea" />
+        </excluded>
+      </library>
+    </orderEntry>
     <orderEntry type="library" scope="PROVIDED" name="actioncable (v7.0.4.3, ruby-3.0.2-p107) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="actionmailbox (v7.0.4.3, ruby-3.0.2-p107) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="actionmailer (v7.0.4.3, ruby-3.0.2-p107) [gem]" level="application" />
@@ -191,6 +223,7 @@
         <option value="migration" />
         <option value="model" />
         <option value="mongoid:devise" />
+        <option value="moveshop_common:install" />
         <option value="resource" />
         <option value="responders:install" />
         <option value="responders_controller" />
@@ -250,6 +283,7 @@
         <option value="migration" />
         <option value="model" />
         <option value="mongoid:devise" />
+        <option value="moveshop_common:install" />
         <option value="resource" />
         <option value="responders:install" />
         <option value="responders_controller" />

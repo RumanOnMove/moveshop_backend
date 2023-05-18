@@ -77,3 +77,4 @@ gem 'spree_sample' # dummy data like products, taxons, etc
 gem 'spree_auth_devise', '~> 4.3' # Devise integration (optional)
 gem 'spree_gateway', '~> 3.9' # payment gateways eg. Stripe, Braintree (optional)
 gem 'spree_i18n', '~> 5.0' # translation files (optional)
+gem 'moveshop_common', path: '/home/rsruman/WorkDir/Rails/moveshop_common'
