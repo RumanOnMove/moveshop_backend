@@ -1,6 +1,4 @@
 Rails.application.routes.draw do
-  # This is MoveshopCommon package default route 
-  mount MoveshopCommon::Engine, at: '/'
   # This line mounts Spree's routes at the root of your application.
   # This means, any requests to URLs such as /products, will go to
   # Spree::ProductsController.
